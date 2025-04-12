@@ -1,9 +1,9 @@
 # ISTA_Test
-## Question 1: Two resources:
+## Question 1: Two Resources:
 - 1.1) https://www.ncbi.nlm.nih.gov/books/NBK606114/
 - 1.2) https://www.healthcatalyst.com/learn/insights/reducing-hospital-readmissions-value-analytics
 
-## Question 3: Describe dataset
+## Question 3: Describe Dataset
 | Column Name | Description | Data Type |
 |---------------|-------------|------------|
 | Facility Name | Name of the hospital or healthcare facility | Categorical (object) |
@@ -18,3 +18,9 @@
 | Number of Readmissions | Number of readmissions recorded | Categorical (object) |
 | Start Date | Start date of the measurement period | Categorical (object, date in string format) |
 | End Date | End date of the measurement period | Categorical (object, date in string format) |
+
+## Question 4: Research Question
+- Can we predict which hospitals/medical facilities are likely to incur higher costs due to higher readmission rates given in the dataset?
+
+## Question 5: Question Significance
+- As said in the original mission statement hospital readmissions are a significant driver of healthcare costs in hospitals and healthcare facilities. When patients get readmitted, the hospital not only has to endure the cost of operational expenses for that patient, but can also potentially face finacial penalties/fines from national programs like CMS and HRRP. By making this model to predict which hospitals in the country are most likely to incur these higher costs due to higher readmission rates, we can help the board make infromaed decisions on where to focus resources and efforts around the country (I am assuming this a "board" for every single medical facility\ies listed on the dataset)
