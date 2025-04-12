@@ -24,3 +24,20 @@
 
 ## Question 5: Question Significance
 - As said in the original mission statement hospital readmissions are a significant driver of healthcare costs in hospitals and healthcare facilities. When patients get readmitted, the hospital not only has to endure the cost of operational expenses for that patient, but can also potentially face finacial penalties/fines from national programs like CMS and HRRP. By making this model to predict which hospitals in the country are most likely to incur these higher costs due to higher readmission rates, we can help the board make infromaed decisions on where to focus resources and efforts around the country (I am assuming this a "board" for every single medical facility\ies listed on the dataset). Ultimately, this research helps the hospital proactively identify high-risk areas and implement strategies to reduce unnecessary readmissions, improving patient outcomes while controlling costs. Beyond financial savings, reducing readmissions means patients experience better care and fewer disruptions to their recovery.
+
+## Question 6 and 7: Resources
+- https://scikit-learn.org/stable/modules/tree.html
+- ISLP: Class textbook
+- Utilized AI to help break down some steps/fucntions where I would typically use sklearn packages for step 6
+- https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html
+- https://isheunesu48.medium.com/cross-validation-using-k-fold-with-scikit-learn-cfc44bf1ce6
+
+## Question 6 and 7 running model instructions:
+- Clone repo then click "step_6_7_assesment"
+- Run all cells in order functions are seperate from main cell which is last so dont skip parts
+- decisoon tree will build (no visualization I didnt know how too without packages)
+- then youll see wsection for validation at bottom and will give accuracy score for each fold, the classfication report, and confusion matrix
+
+## Question 9: Statement to Board
+- This model achived perfect accuracy across all fold in validation, although this may seem great it may be "too good to be true". This may be a result of one of our input variables, the "Excess Readmission Ratio," being too dominant in our prediction. Which essentially means the model is very reliant on this specific feature, future analysis may include exploring other alternative variables.
+  
